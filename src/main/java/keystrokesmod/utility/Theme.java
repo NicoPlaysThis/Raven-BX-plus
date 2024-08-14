@@ -23,7 +23,11 @@ public enum Theme {
     Vine(new Color(17, 192, 45), new Color(201, 234, 198)), // 9
     Descriptor(new Color(95, 235, 255), new Color(68, 102, 250)), // 10
     HiddenBind(new Color(245, 33, 33), new Color(229, 21, 98)), // 11
-    Astolfo(new Color(255,74,255), new Color(74,255,255), new Color(255,255,255)); // 12 (credit @biPas)
+    DarkBreeze(new Color(27, 101, 226), new Color(102, 91, 161)), // 12
+    PlainWhite(new Color(255,255,255), new Color(225, 225, 225)), //13
+    Astolfo(new Color(255,74,255), new Color(74,255,255), new Color(255,255,255)); // 14 (credit @biPas)
+
+
     private static final Map<Theme, BufferedImage> imageCache = new HashMap<>(values().length);
 
     private final List<Color> gradients;

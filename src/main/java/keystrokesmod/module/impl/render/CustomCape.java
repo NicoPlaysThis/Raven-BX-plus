@@ -25,7 +25,8 @@ public final class CustomCape extends Module {
     public static String[] CAPES_NAME = new String[]{
             "RavenAnime", "RavenAqua", "RavenGreen", "RavenPurple", "RavenRed", "RavenWhite", "RavenYellow",
             "Cherry", "Die",
-            "Astolfo", "AugustusCandy", "Esound"
+            "Astolfo", "AugustusCandy", "Esound",
+            "AstelicBadlion", "AstelicPurpleSky", "Mountain", "PastelAesthetic", "NightWave", "PurpleJapanese", "MineCon1", "BlueMigration"
     };
     public static final List<ResourceLocation> LOADED_CAPES = new ArrayList<>();
     public static final ModeSetting cape = new ModeSetting("Cape", CAPES_NAME, 0);
@@ -68,7 +69,8 @@ public final class CustomCape extends Module {
         final String[] builtinCapes = new String[]{
                 "RavenAnime", "RavenAqua", "RavenGreen", "RavenPurple", "RavenRed", "RavenWhite", "RavenYellow",
                 "Cherry", "Die",
-                "Astolfo", "AugustusCandy", "Esound"
+                "Astolfo", "AugustusCandy", "Esound",
+                "AstelicBadlion", "AstelicPurpleSky", "Mountain", "PastelAesthetic", "NightWave", "PurpleJapanese", "MineCon1", "BlueMigration"
         };
         CAPES_NAME = new String[files.length + builtinCapes.length];
         LOADED_CAPES.clear();
@@ -94,6 +96,7 @@ public final class CustomCape extends Module {
             File file = files[i];
             if (!file.exists() || !file.isFile()) continue;
             if (!file.getName().endsWith(".png")) continue;
+            if (!file.getName().endsWith(".gif")) continue;
             String fileName = file.getName().substring(0, file.getName().length() - 4);
 
             CAPES_NAME[builtinCapes.length + i] = fileName;
