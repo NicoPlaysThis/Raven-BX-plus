@@ -1,0 +1,53 @@
+{
+  "required": true,
+  "package": "keystrokesmod.mixins.impl",
+  "refmap": "mixins.raven.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "client.MixinInventoryPlayer",
+    "entity.EntityAccessor",
+    "entity.MixinEntity",
+    "entity.MixinEntityLivingBase",
+    "entity.MixinEntityPlayer",
+    "entity.MixinEntityPlayerSP",
+    "network.C02PacketUseEntityAccessor",
+    "network.MixinModList",
+    "network.MixinNetworkManager",
+    "network.S08PacketPlayerPosLookAccessor",
+    "network.S12PacketEntityVelocityAccessor",
+    "network.S14PacketEntityAccessor",
+    "network.S27PacketExplosionAccessor",
+    "render.MixinFontRenderer",
+    "render.MixinLayerCape",
+    "render.MixinModelBiped",
+    "render.MixinRendererLivingEntity",
+    "world.BlockNoteAccessor",
+    "world.MixinBlock",
+    "world.MixinBlockWeb"
+  ],
+  "client": [
+    "client.GuiConnectingAccessor",
+    "client.GuiScreenAccessor",
+    "client.KeyBindingAccessor",
+    "client.MinecraftAccessor",
+    "client.MixinMinecraft",
+    "client.MixinMovementInputFromOptions",
+    "client.MixinPlayerControllerMP",
+    "client.PlayerControllerMPAccessor",
+    "entity.EntityPlayerSPAccessor",
+    "network.MixinClientSpoofer",
+    "network.MixinNetHandlerPlayClient",
+    "render.ItemRendererAccessor",
+    "render.MixinBlockRendererDispatcher",
+    "render.MixinEntityRenderer",
+    "render.MixinGuiConnecting",
+    "render.MixinGuiContainer",
+    "render.MixinGuiScreen",
+    "render.MixinItemRenderer",
+    "render.RenderManagerAccessor"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
