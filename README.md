@@ -8,6 +8,8 @@
     <img src="https://img.shields.io/github/last-commit/NicoPlaysThis/raven-bx-plus" alt="Last Commit">
    </a>
     <img src="https://img.shields.io/badge/license-GPLV3-green" alt="License">
+   </a>
+    <img src="https://img.shields.io/github/issues/nicoplaysthis/raven-bx-plus?style=flat" alt="Issues">
 </p>
 
 Raven XD, but with more customization and features.
@@ -44,7 +46,7 @@ Raven XD, but not only for the basic AntiCheat bypasses.
      git clone --recursive https://github.com/xia-mc/Raven-XD.git
      cd Raven-XD
      ```
-   - Or you can download the Source Code here: <img src="https://img.shields.io/github/downloads/NicoPlaysThis/raven-bx-plus/latest/total" alt="RavenBXplus" />
+   - Or you can download the Source Code here: <img src="https://img.shields.io/github/downloads/NicoPlaysThis/raven-bx-plus/latest/total?link=https%3A%2F%2Fgithub.com%2FNicoPlaysThis%2FRaven-BX-plus%2Farchive%2Frefs%2Ftags%2FJAR-Releases.zip" alt="RavenBXplusSourceCodeInstall" />
 
 5. **Set Up the Project**:
    - Run the following commands to set up the Gradle wrapper and the development environment:
