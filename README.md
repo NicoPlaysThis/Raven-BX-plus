@@ -1,53 +1,50 @@
 <div align="center">
   
-# Raven XD
+# Raven BX+
 <p align="center">
-    <a href="https://github.com/xia-mc/Raven-bS/issues">
-      <img src="https://img.shields.io/github/issues/xia-mc/Raven-bS?style=flat" alt="issues" />
+    <a href="https://github.com/NicoPlaysThis/Raven-BX-plus">
+      <img src="https://img.shields.io/badge/Raven_BX%2B-red" alt="RavenBXplus" />
     </a>
+    <img src="https://img.shields.io/github/last-commit/NicoPlaysThis/raven-bx-plus" alt="Last Commit">
+   </a>
     <img src="https://img.shields.io/badge/license-GPLV3-green" alt="License">
 </p>
 
-[![Github Release Downloads](https://img.shields.io/github/downloads/xia-mc/Raven-bS/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/xia-mc/Raven-bS/releases)
-<!--
-[![CurseForge Downloads](http://cf.way2muchnoise.eu/997222.svg?badge_style=flat)](https://www.curseforge.com/minecraft/mc-mods/cheatdetector)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/QNVaUzHT?label=Modrinth%20Downloads&logo=Modrinth%20Downloads&style=flat-square)](https://modrinth.com/mod/cheatdetector)
--->
+Raven XD, but with more customization and features.
 
-Raven B4, but for those who can't afford it.
+Raven XD, but not only for the basic AntiCheat bypasses.
 
-Raven B4, but not only for Hypixel.
-
-![2024-07-10_14 13 51](https://github.com/xia-mc/Raven-XD/assets/108219418/15470b4f-b29d-49a5-8396-1c1d4bd315a1)
+![Raven BX+ Screenie](https://github.com/NicoPlaysThis/Raven-BX-plus/blob/master/assets/ClientScreenshots/Screenshot%202024-08-14%20131714.png)
 
 ### ***More functionality while staying in sync with upstream branches.***
 
-<a href="https://discord.gg/zSgDKArSH4"><img src="https://invidget.switchblade.xyz/zSgDKArSH4" alt="https://discord.gg/zSgDKArSH4"/></a><br>
+<a href="https://discord.gg/m4h2F9D6Tt"><img src="https://invidget.switchblade.xyz/m4h2F9D6Tt" alt="https://discord.gg/m4h2F9D6Tt"/></a><br>
 </div>
 
-## How do I build this client?
+## How do I build Raven BX+?
 
 ### Steps:
 
-1. **Download and Install Java SDK version 8**:
+1. **Install Java SDK version 8**:
    - Download from [Java SDK version 8](https://adoptium.net/en-GB/temurin/releases/?version=8).
    - Install it and set the `JAVA_HOME` environment variable to the installation directory.
 
 2. **Verify Java Installation**:
    - Open a terminal or command prompt.
    - Run `java -version`.
-   - Ensure the output contains `openjdk version "1.8.0_{...}"`.
+   - Ensure the output contains `openjdk version "1.8.0_{.whatever.}"`.
 
-3. **Install Gradle 4.7**:
+3. **Install (Gradle 4.7)**:
    - Download from [Gradle 4.7](https://gradle.org/next-steps/?version=4.7&format=bin).
    - Follow the "Installing manually" guide on the [Gradle wiki](https://gradle.org/install).
 
-4. **Clone the Repository**:
+4. **Clone the Repository or Download the Source Code**:
    - Run the following commands in the terminal or command prompt:
      ```bash
      git clone --recursive https://github.com/xia-mc/Raven-XD.git
      cd Raven-XD
      ```
+   - Or you can download the Source Code here: <img src="https://img.shields.io/github/downloads/NicoPlaysThis/raven-bx-plus/latest/total" alt="RavenBXplus" />
 
 5. **Set Up the Project**:
    - Run the following commands to set up the Gradle wrapper and the development environment:
@@ -58,19 +55,22 @@ Raven B4, but not only for Hypixel.
      ```
 
 6. **Build Success**:
-   - If all steps complete without errors, the project is successfully built.
+   - If all steps complete without errors, the project is successfully built. Go to your IdeaProjects folder in
+``` C:\Users\YOURUSERHERE\IdeaProjects\YOURPROJECTNAME\build\libs\YOURJAR.jar ```
+   - Place that jar in you Minecraft mods folder.
 
 
-## Contribute
-Feel free to raise an issue or submit a pull request.
+7. **Enjoy the Client!**
 
-If you want to co-develop this project with me, please contact me.
 
-You can also support us on [Patreon](https://www.patreon.com/xia__mc)!
+## Contribution:
+Feel free to report an issue or do a pull request.
+
+If you want to improve or co-develop this client with me, please contact @NicoPlaysThis or @autisteck.
 
 <div align="center">
 
-[!![-preview](https://github.com/user-attachments/assets/ac50e6e5-3227-4ee9-9881-2e7b8ba47861)](https://www.patreon.com/xia__mc)
+[![-preview](https://i.ibb.co/6s1bgRn/Untitle545d.png)]
 
 <img src="https://github.com/SAWARATSUKI/KawaiiLogos/blob/main/IntelliJ IDEA/IntelliJ IDEA.png" alt="Java" width="500" />
 
